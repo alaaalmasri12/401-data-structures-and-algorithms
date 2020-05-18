@@ -7,5 +7,4 @@ challange to have array elements reversed
 
 using the built in reverse bulit in function and using a for loop in onther way
 ## Solution
-[uml]: assets/reverse.png
-
+![reverse]:(assets/reverse.png)
