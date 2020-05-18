@@ -4,7 +4,7 @@ code challenges
 --- | --- 
 Challenge01 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/array-reverse/challenges/arrayReverse)
 --- | ---
-Challeng02 | [CLICK!](https://alaaalmasri12.github.io/reading-notes-301/class-02)
+Challeng02 | [CLICK!](01-data-structures-and-algorithms/tree/array-reverse/challenges/array-shift)
 --- | --- 
 Challeng03 | [CLICK!](https://alaaalmasri12.github.io/reading-notes-301/class-03)
 --- | --- 
