@@ -2,7 +2,7 @@
 code challenges
 **class** |**link**
 --- | --- 
-Challenge01 | [CLICK!](https://alaaalmasri12.github.io/reading-notes-301/class-01)
+Challenge01 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/array-reverse/challenges/arrayReverse)
 --- | ---
 Challeng02 | [CLICK!](https://alaaalmasri12.github.io/reading-notes-301/class-02)
 --- | --- 
