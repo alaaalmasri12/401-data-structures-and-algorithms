@@ -22,7 +22,7 @@ function binarysearch(arr,val)
 }
    2-test array case
 
-  const shiftArray=require("../lib/array-shift.js");
+  const shiftArray=require("../lib/binary-search.js");
 describe("binary search",()=>{
 it('binary_search() should sort the array elements',()=>{
     expect(binarysearch([4,8,15,16,23,42],15)).toEqual(2);
