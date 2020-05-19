@@ -6,7 +6,7 @@ Challenge01 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-
 --- | ---
 Challeng02 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/array-shift)
 --- | --- 
-Challeng03 | [CLICK!](https://alaaalmasri12.github.io/reading-notes-301/class-03)
+Challeng03 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/array-binary-search)
 --- | --- 
 Challeng04 | [CLICK!](https://alaaalmasri12.github.io/reading-notes-301/class-04)
 --- | --- 
