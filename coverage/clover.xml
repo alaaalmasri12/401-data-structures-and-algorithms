@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1589911703011" clover="3.2.0">
-  <project timestamp="1589911703012" name="All files">
+<coverage generated="1589915709096" clover="3.2.0">
+  <project timestamp="1589915709096" name="All files">
     <metrics statements="11" coveredstatements="10" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1" elements="16" coveredelements="14" complexity="0" loc="11" ncloc="11" packages="1" files="1" classes="1"/>
     <file name="arrayBinarySearch.js" path="/mnt/c/Users/STD/codefellows/401/401-data-structures-and-algorithms/challenges/arrayBinarysearch/lib/arrayBinarySearch.js">
       <metrics statements="11" coveredstatements="10" conditionals="4" coveredconditionals="3" methods="1" coveredmethods="1"/>

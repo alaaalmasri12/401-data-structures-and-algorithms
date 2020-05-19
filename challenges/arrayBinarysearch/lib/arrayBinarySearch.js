@@ -12,7 +12,7 @@ function binarysearch(arr,val)
     while (start <= end) {
         mid = Math.floor((start + end) / 2);
 
-        if (arr[mid] ===al) {
+        if (arr[mid] ===val) {
             return mid;
         } 
         else if (val < arr[mid]) {
