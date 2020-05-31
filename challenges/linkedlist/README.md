@@ -1,7 +1,7 @@
 # Linked list challenge
 ## Challenge
 
-challange to to insert a node and find and print linked list 
+challange to to insert a node and insert a node before and after a spesfic node 
 
 ## Approach & Efficiency
 1- remove unnecessary code or code that goes to redundant processing
