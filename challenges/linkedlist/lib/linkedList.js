@@ -75,7 +75,6 @@ class LinkedList {
 
   }
   kthFromEnd(k) {
-
       let thisNode = this.head;
       let length = 0;
       let pos = 0;
