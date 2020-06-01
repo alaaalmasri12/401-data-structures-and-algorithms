@@ -42,62 +42,80 @@ class LinkedList {
   }
 
   insertBefore(value, newval) {
-    
+
     let thisNode = this.head;
 
     while (thisNode.next !== null) {
-      console.log('alaaaaaa',thisNode.next); 
-if(thisNode.next.value  ===value )
-{
-  console.log('enterd')
-  let newitem=new Node(newval);
-  newitem.next=thisNode.next;
-  thisNode.next=newitem;
-  console.log(thisNode.next);
-  return thisNode;
-}
-thisNode=thisNode.next;
+      console.log('alaaaaaa', thisNode.next);
+      if (thisNode.next.value === value) {
+        console.log('enterd')
+        let newitem = new Node(newval);
+        newitem.next = thisNode.next;
+        thisNode.next = newitem;
+        console.log(thisNode.next);
+        return thisNode;
+      }
+      thisNode = thisNode.next;
     }
 
   }
   insertAfter(value, newval) {
-    
+
     let thisNode = this.head;
-while(thisNode)
-{
-if(thisNode.value ===value )
-{
-  let newitem=new Node(newval);
-  newitem.next=thisNode.next;
-  thisNode.next=newitem;
-  console.log(thisNode.next);
-  return thisNode;
-}
-thisNode=thisNode.next;
+    while (thisNode) {
+      if (thisNode.value === value) {
+        let newitem = new Node(newval);
+        newitem.next = thisNode.next;
+        thisNode.next = newitem;
+        console.log(thisNode.next);
+        return thisNode;
+      }
+      thisNode = thisNode.next;
     }
 
   }
-}
+  kthFromEnd(k) {
+
+      let thisNode = this.head;
+      let length = 0;
+      let pos = 0;
+      while (thisNode) {
+        length++;
+        thisNode = thisNode.next;
+      }
+      pos = length - k - 1;
+      if (pos < 0 || k < 0)
+        return 'Exception';
+      thisNode = this.head;
+      while (pos) {
+        thisNode = thisNode.next;
+        pos--;
+      }
+      return thisNode.value;
+    }
+  }
 module.exports = LinkedList;
 let list = new LinkedList();
 
 let initialValue = 1;
 list.append(initialValue);
-let secondValue = 2;
+let secondValue = 3;
 list.append(secondValue);
-let thirdValue = 3;
+let thirdValue = 8;
 list.append(thirdValue);
-let forthValue = 4;
+let forthValue = 2;
 list.append(forthValue);
 // list.insertBefore(3, 5);
 // list.insertBefore(1, 5);
 // list.insertBefore(2, 5);
 // list.insertBefore(4, 5);
+// list.insertAfter(3,5);
+// list.insertAfter(2,5);
+// list.insertAfter(4,5);
 
-list.insertAfter(3,5);
-list.insertAfter(2,5);
-list.insertAfter(4,5);
-
+// console.log(list.kthFromEnd(0));
+// console.log(list.kthFromEnd(2));
+// console.log(list.kthFromEnd(6));
 
 
 list.toString();
