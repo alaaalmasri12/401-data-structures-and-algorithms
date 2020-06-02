@@ -16,7 +16,7 @@ Challeng06 | [CLICK!](https://alaaalmasri12.github.io/reading-notes-301/class-06
 --- | --- 
 Challeng07 | [CLICK!](https://alaaalmasri12.github.io/reading-notes-301/class-07)
 --- | --- 
-Challeng08 | [CLICK!](https://alaaalmasri12.github.io/reading-notes-301/class-08)
+Challeng08 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/ll-merge/challenges/linkedlist)
 --- | --- 
 Challeng09 | [CLICK!](https://alaaalmasri12.github.io/reading-notes-301/class-09)
 --- | --- 
