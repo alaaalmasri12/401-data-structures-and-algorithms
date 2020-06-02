@@ -1,4 +1,5 @@
 const Node = require('../node');
+const node=require('../merge');
 class LinkedList {
   constructor() {
     this.head = null;
@@ -92,6 +93,34 @@ class LinkedList {
       }
       return thisNode.value;
     }
+    merge(L1, L2) {
+      // create new linked list pointer
+      var L3 = new Node(null, null);
+      var prev = L3;
+  
+      // while both linked lists are not empty
+      while (L1 !== null && L2 !== null) {
+        if (L1.data) {
+          console.log(L1.data);
+  
+          prev.next = L1;
+          L1 = L1.next;
+          prev = prev.next;
+  
+  
+        }
+        if (L2.data) {
+          console.log(L2.data);
+          prev.next = L2;
+          L2 = L2.next;
+          prev = prev.next;
+        }
+  
+  
+      }
+      return L3.next;
+  
+    }
   }
 module.exports = LinkedList;
 let list = new LinkedList();
@@ -116,5 +145,47 @@ list.append(forthValue);
 // console.log(list.kthFromEnd(2));
 // console.log(list.kthFromEnd(6));
 
+// test 1
+// create first linked list: 1 -> 3 -> 10
+// var n3 = new node(2, null);
+// var n2 = new node(3, n3);
+// var n1 = new node(1, n2);
+// var L1 = n1; 
 
-list.toString();
+// create second linked list: 5 -> 6 -> 9
+// var n6 = new node(4, null);
+// var n5 = new node(9, n6);
+// var n4 = new node(5, n5);
+// let L2 = n4;
+// console.log(list.merge(L1, L2));
+
+//test 2
+// create first linked list: 1 -> 3 -> null
+// var n3=new node(null,null);
+// var n2 = new node(3,n3);
+// var n1 = new node(1, n2);
+// var L1 = n1; 
+
+// // // create second linked list: 5 -> 6 ->9=> null
+// var n6 = new node(4, null);
+// var n5 = new node(9, n6);
+// var n4 = new node(5, n5);
+// var L2 = n4;
+// L2 = n4;
+// console.log(list.merge(L1, L2));
+
+//test 3
+// create first linked list: 1 -> 3 -> null
+var n3=new node(2,null);
+var n2 = new node(3,n3);
+var n1 = new node(1, n2);
+var L1 = n1; 
+
+// create second linked list: 5 -> 6 ->9=> null
+var n6 = new node(null, null);
+var n5 = new node(9, n6);
+var n4 = new node(5, n5);
+let L2 = n4;
+
+
+console.log(list.merge(L1, L2));
