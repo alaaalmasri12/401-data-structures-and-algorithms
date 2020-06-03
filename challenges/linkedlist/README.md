@@ -1,4 +1,4 @@
-# Reverse an Array
+#merge
 ## Challenge
 
 challange to have a function that accept 2 linked list and megere it one linked list regadless the length of each list
