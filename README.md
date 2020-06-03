@@ -8,13 +8,13 @@ Challeng02 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-a
 --- | --- 
 Challeng03 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/array-binary-search/challenges/arrayBinarysearch)
 --- | --- 
-Challeng04 | [CLICK!](https://alaaalmasri12.github.io/reading-notes-301/class-04)
+Challeng04 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/linked-list/challenges/linkedlist)
 --- | --- 
-Challeng05 | [CLICK!](https://alaaalmasri12.github.io/reading-notes-301/class-05)
+Challeng05 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/ll-insertion/challenges/linkedlist)
 --- | --- 
 Challeng06 | [CLICK!](https://alaaalmasri12.github.io/reading-notes-301/class-06)
 --- | --- 
-Challeng07 | [CLICK!](https://alaaalmasri12.github.io/reading-notes-301/class-07)
+Challeng07 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/ll-kth-from-end/challenges/linkedlist)
 --- | --- 
 Challeng08 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/ll-merge/challenges/linkedlist)
 --- | --- 
