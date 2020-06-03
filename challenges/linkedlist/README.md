@@ -1,4 +1,4 @@
-# Linked list challenge
+# ll-kth-from-end challenge
 ## Challenge
 
 challange to to insert a node and insert a node before and after a spesfic node 
