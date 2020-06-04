@@ -20,5 +20,5 @@ Challeng08 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-a
 --- | --- 
 Challeng09 | [CLICK!](https://alaaalmasri12.github.io/reading-notes-301/class-09)
 
-
-
+--- | --- 
+Challeng10 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/stack-and-queue)
