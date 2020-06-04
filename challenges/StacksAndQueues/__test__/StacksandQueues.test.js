@@ -86,23 +86,6 @@ it('Can successfully enqueue into a queue',()=>{
 
 // })
 //
-it('Can successfully peek into a queue, seeing the expected value',()=>{
-       
-      
-   let q = new Queue();
-   q.enqueue(1);
-   expect(q.peek()).toEqual(1);
-   q.enqueue(2);
-   expect(q.peek()).toEqual(2);
-
-   q.enqueue(3);
-   expect(q.peek()).toEqual(3);
-   q.enqueue(4);
-
-   expect(q.peek()).toEqual(4);
-
-
-})
 it('Can successfully instantiate an empty queue',()=>{
        
       
