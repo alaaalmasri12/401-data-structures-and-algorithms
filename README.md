@@ -19,8 +19,3 @@ Challeng07 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-a
 --- | --- 
 Challeng08 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/ll-merge/challenges/linkedlist)
 --- | --- 
-
-
-
-
-
