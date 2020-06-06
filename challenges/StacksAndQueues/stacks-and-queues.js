@@ -18,6 +18,9 @@ a.unshift();
         console.log('enterd the method');
 this.storage.unshift(item);//it will add the item to the fornt of the array 
 this.top=item;
+return item;
+
+
     }
     /*
 shift will delete the top node which is 3
@@ -31,13 +34,14 @@ shift will delete the top node which is 3
     }
     peek()
     {
+        console.log(this.top);
         return this.top;
     }
     isEmpty()
     {
-return (this.storage !==null)?true:false;
-    }
-
+       // return true if stack is empty 
+    return this.storage.length == 0; 
+       }
 }
 
 class Queue
@@ -64,32 +68,36 @@ this.storage.push(item);
  }
  isEmpty()
  {
-return (this.storage !==null)?true:false;
+     // return true if stack is empty 
+     return this.storage.length == 0; 
+
  }
 }
 
 // console.log('hello');
-// let stack=new Node(); //new instance of node
+let stack=new Node(); //new instance of node
+let queue=new Queue();
 // storage [] top:null
-// stack.push(1); 
+stack.push(1); 
 // storage [1] top:1
-// stack.push(2);
+stack.push(2);
 // storage [2,1] top:2
-// stack.push(3);
+stack.push(3);
 // storage [3,2,1] top:2
-// stack.pop();
+stack.pop();
 // storage [2,1] top:2
-// stack.pop();
+console.log(stack);
 // storage [1] top:1
-
-// console.log('top node which is peek',stack.peek());
+console.log(stack.isEmpty());
+console.log('top node which is peek',stack.peek());
 // console.log(stack);
 
-// let queue=new Queue();
-// queue.enqueue(1);
-// queue.enqueue(2);
-// queue.enqueue(3);
-// queue.dequeue();
+queue.enqueue(1);
+queue.enqueue(2);
+queue.enqueue(3);
+queue.dequeue();
+console.log(queue.isEmpty());
+console.log(queue);
 
 // console.log(queue)
 module.exports = { Node, Queue }
