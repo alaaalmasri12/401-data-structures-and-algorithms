@@ -4,7 +4,7 @@ code challenges
 --- | --- 
 Challenge01 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/array-reverse/challenges/arrayReverse)
 --- | ---
-Challeng02 |[CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/array-shift/challenges/shiftarray)
+Challeng02 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/array-shift)
 --- | --- 
 Challeng03 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/array-binary-search/challenges/arrayBinarysearch)
 --- | --- 
@@ -19,6 +19,20 @@ Challeng07 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-a
 Challeng08 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/ll-merge/challenges/linkedlist)
 --- | --- 
 Challeng09 | [CLICK!](https://alaaalmasri12.github.io/reading-notes-301/class-09)
-
 --- | --- 
 Challeng10 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/stack-and-queue)
+--- | --- 
+Challeng11 | [CLICK!]()
+--- | --- 
+Challeng12 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/fifo-animal-shelter/challenges/fifo-animal-shelter)
+--- | --- 
+Challeng13 | [CLICK!](https://alaaalmasri12.github.io/reading-notes-301/class-13)
+--- | --- 
+Challeng14 | [CLICK!](https://alaaalmasri12.github.io/reading-notes-301/class-14)
+--- | --- 
+Challeng15 | [CLICK!](https://alaaalmasri12.github.io/reading-notes-301/class-15)
+
+
+
+
+
