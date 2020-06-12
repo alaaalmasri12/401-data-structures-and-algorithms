@@ -24,7 +24,7 @@ Challeng10 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-a
 --- | --- 
 Challeng11 | [CLICK!]()
 --- | --- 
-Challeng12 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/fifo-animal-shelter)
+Challeng12 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/fifo-animal-shelter/challenges/fifo-animal-shelter)
 --- | --- 
 Challeng13 | [CLICK!](https://alaaalmasri12.github.io/reading-notes-301/class-13)
 --- | --- 
