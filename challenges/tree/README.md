@@ -8,7 +8,7 @@ the left child node and the right child node Create a BinaryTree class
 called preOrder, inOrder, and postOrder 
 which returns an array of the values, ordered appropriately
 
-- [submission PR](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/pull/14/)
+- [submission PR](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/pull/15/)
 ## Approach & Efficiency
 1-if its the first node it will be the root 
 2-if the second node entred is larger than the cureent node it will go right and it  will have the right with that inserted value otherwise if its less it will go left
