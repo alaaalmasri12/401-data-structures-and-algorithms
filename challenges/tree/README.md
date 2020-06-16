@@ -1,12 +1,10 @@
-# breadth-first search
+# find-maximum-value
 ## Challenge
 
 the challenge is to make breadthFirstTraversal in tree data structures
 ## Approach & Efficiency
 
-we use while loop in the childes cause we push to the array and want to check from its empty space -> O(n) time -> Θ(n)
-
-
+we use recursive  to search for left and right tree make if condition if the one of the values from right and left is larger then the max is either left or the right
 
 ## Solution
-![binary-search-tree](assets/tree.png)
+![binary-search-tree](assets/max.png)

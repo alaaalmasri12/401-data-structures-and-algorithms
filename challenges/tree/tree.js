@@ -125,20 +125,35 @@ class BinaryTree {
     }
     return resulte;
   }
-}
+  findmaximumvalue(node)
+  {
+    if (node == null) 
+    { 
+        return "the root value is null"; 
+    } 
 
-let tree2 = new BinaryTree();
-  let tree1 = new BinaryTree();
-  tree1.add(2);
-  tree1.add(7);
-  tree1.add(5);
-  tree1.add(2);
-  tree1.add(6);
-  tree1.add(9);
-  tree1.add(5);
-  tree1.add(11);
-  tree1.add(4);
-  console.log(tree2.breadthFirstTraversal(tree1));
+    let res = node.value; 
+    let lres =   this.findmaximumvalue(node.left); 
+    let  rres =  this.findmaximumvalue(node.right);
+
+    if (lres > res) 
+    { 
+        res = lres; 
+    } 
+    if (rres > res) 
+    { 
+        res = rres; 
+    } 
+    return res; 
+} 
+}
+  let tree = new BinaryTree();
+  tree.add(1);
+  tree.add(2);
+  tree.add(3);
+  tree.add(4);
+  tree.add(5);
+//   console.log(tree2.breadthFirstTraversal(tree1));
 // console.log(tree.contain(5));
 // console.log(tree.contain(3));
 // console.log(tree.contain(8));
@@ -146,5 +161,5 @@ let tree2 = new BinaryTree();
 // console.log(tree.contain(32));
 // console.log(tree.contain(15));
 // console.log(tree.contain(12));
-
+console.log(tree.findmaximumvalue(tree.root));
 // console.log(tree);
