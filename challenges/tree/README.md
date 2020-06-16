@@ -1,4 +1,4 @@
-# Reverse an Array
+# breadth-first search
 ## Challenge
 
 the challenge is to make breadthFirstTraversal in tree data structures
