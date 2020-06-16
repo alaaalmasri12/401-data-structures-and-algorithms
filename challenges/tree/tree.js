@@ -68,7 +68,6 @@ class BinaryTree {
                     break;
                 }
             }
-            console.log('alaaaaaaa', newnode);
         }
     }
     contain(Nodeitem) {
@@ -112,25 +111,40 @@ class BinaryTree {
 
         }
     }
+ breadthFirstTraversal(tree) {
+    let resulte = [];
+    let childs = [];
+    let node = tree.root;
+    if (!node) return 'the tree is empty';
+    childs.push(node);
+    while (childs.length) {
+      let tempNode = childs.shift();
+      resulte.push(tempNode.value);
+      if (tempNode.left) childs.push(tempNode.left);
+      if (tempNode.right) childs.push(tempNode.right);
+    }
+    return resulte;
+  }
 }
 
-let tree = new BinaryTree();
-tree.add(5);
-tree.add(3);
-tree.add(2);
-tree.add(8);
-tree.add(10);
-tree.add(11);
+let tree2 = new BinaryTree();
+  let tree1 = new BinaryTree();
+  tree1.add(2);
+  tree1.add(7);
+  tree1.add(5);
+  tree1.add(2);
+  tree1.add(6);
+  tree1.add(9);
+  tree1.add(5);
+  tree1.add(11);
+  tree1.add(4);
+  console.log(tree2.breadthFirstTraversal(tree1));
+// console.log(tree.contain(5));
+// console.log(tree.contain(3));
+// console.log(tree.contain(8));
+// console.log(tree.contain(10));
+// console.log(tree.contain(32));
+// console.log(tree.contain(15));
+// console.log(tree.contain(12));
 
-console.log(tree.contain(5));
-console.log(tree.contain(3));
-console.log(tree.contain(8));
-console.log(tree.contain(10));
-console.log(tree.contain(32));
-console.log(tree.contain(15));
-console.log(tree.contain(12));
-
-
-
-console.log(tree);
-module.exports = BinaryTree;
+// console.log(tree);
