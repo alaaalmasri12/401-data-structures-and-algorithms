@@ -146,6 +146,19 @@ class BinaryTree {
     } 
     return res; 
 } 
+sumodd(node)
+{
+    console.log(node);
+    let sum = 0;
+    if(node !== null)
+    {
+        if((node.value % 2) !== 0)
+            sum += node.value;
+        sum+=this.sumodd(node.left);
+        sum+=this.sumodd(node.right);
+    }
+    return sum; 
+}
 }
   let tree = new BinaryTree();
   tree.add(1);
@@ -161,5 +174,7 @@ class BinaryTree {
 // console.log(tree.contain(32));
 // console.log(tree.contain(15));
 // console.log(tree.contain(12));
-console.log(tree.findmaximumvalue(tree.root));
+// console.log(tree.findmaximumvalue(tree.root));
+console.log(tree.sumodd(tree.root));
+
 // console.log(tree);
