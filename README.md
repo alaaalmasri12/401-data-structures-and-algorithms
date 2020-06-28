@@ -26,8 +26,7 @@ Challeng12 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-a
 --- | --- 
 Challeng17 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/tree)
 --- | --- 
-Challeng26 | [CLICK!](
-https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/InsertionSort/challenges/insertion)
+Challeng26 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/InsertionSort/challenges/insertion)
 
 
 
