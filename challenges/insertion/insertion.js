@@ -16,7 +16,8 @@
      return arr;
 
  }
- console.log(insertionsort([8,4,23,42,16,15]));
+//  console.log(insertionsort([8,4,23,42,16,15]));
 //  console.log(insertionsort([20,18,12,8,5,-2]));
 //  console.log(insertionsort([5,12,7,5,5,7]));
 //  console.log(insertionsort([2,3,5,7,13,11]));
+module.exports=insertionsort;
