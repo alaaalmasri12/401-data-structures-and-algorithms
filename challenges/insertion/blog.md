@@ -1,4 +1,4 @@
-# find-maximum-value
+# insertion sort
 ## Challenge
 
 the challenge is to make insertion function  that will insert array elements and sort it from lowest to heighest
