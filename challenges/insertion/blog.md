@@ -13,6 +13,10 @@ the challenge is to make insertion function  that will insert array elements and
 8-swaping array of index j+1 by the temp which arr of index i
 0-returning the array
 
+## BIG O:
+time:O(N2)
+space:O(n)
+
 ## Solution
 ![pass1](assets/phase1.png)
 ![pass2](assets/phase2.png)
