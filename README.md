@@ -23,10 +23,8 @@ Challeng09 | [CLICK!](https://docs.google.com/spreadsheets/d/1bjgAFM40IgjPZH7-9m
 Challeng10 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/stack-and-queue/challenges/StacksAndQueues)
 --- | --- 
 Challeng12 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/fifo-animal-shelter/challenges/fifo-animal-shelter)
-
 --- | --- 
 Challeng17 | [CLICK!](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/tree)
-
 --- | --- 
 Challeng26 | [CLICK!](
 https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/InsertionSort/challenges/insertion)
