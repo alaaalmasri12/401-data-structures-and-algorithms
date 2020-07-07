@@ -10,9 +10,8 @@ function repeatedwords(str) {
             if (i !== j && words[i] === words[j]) {
 
                 count++;
-                word = words[i];
+                let word = words[i];
                 maxword.push(word);
-                console.log(maxword);
             }
            
         }
