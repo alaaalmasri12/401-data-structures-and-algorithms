@@ -2,6 +2,9 @@
 ## Challenge
 
  challenge is to have a function that accepts a lengthy string parameter return the first word to occur more than once in that provided string
+
+
+ ![code chellange link](https://github.com/alaaalmasri12/401-data-structures-and-algorithms/tree/repeated-words/challenges/Repatedwords)
 ## Approach & Efficiency
 1-creating an  repeatedwords function that accept an string
 2-creating a max variable and maxword array that have the most used word
