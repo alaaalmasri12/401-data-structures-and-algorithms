@@ -19,7 +19,6 @@ function Mergesort(arr) {
         let i = 0;
         let j = 0;
         let k = 0;
-        console.log(right);
         while (i < left.length && j <right.length) {
             if (left[i] < right[i]) {
                 arr[k] = left[i];
