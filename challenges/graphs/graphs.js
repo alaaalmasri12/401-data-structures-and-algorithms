@@ -77,20 +77,7 @@ class Graph {
 
 
     }
-
-    dfs() {
-
-    }
-
-    pathTo() {
-
-    }
-
-
-
 }
-
-
 const graph = new Graph();
 
 const two = new Vertex(2);
@@ -116,13 +103,8 @@ graph.addDirectedEdge(ten, three);
 graph.addDirectedEdge(ten, six);
 graph.addDirectedEdge(eight, seven);
 
-// console.log(graph);
-
 graph.printAll();
 console.log("==================================================")
-console.log('Neighbors: ', graph.getNeighbors(ten));
-
-
 
 console.log("***********************************************")
 graph.bfs(ten);
