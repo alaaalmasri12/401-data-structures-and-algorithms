@@ -12,7 +12,7 @@ breadth-first traversal method that accepts a starting node. Without utilizing a
 
 ## BIG O:
 time:O(1) add vertex,addedge,getnigober method
-space:O(n) for getall and setsize
+space:O(n) for getall and setsize//
 
 ## Solution
 ![breadth-first](assets/breadth-first.png)
