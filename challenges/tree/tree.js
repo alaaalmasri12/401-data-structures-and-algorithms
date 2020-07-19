@@ -126,7 +126,32 @@ class BinaryTree {
     return resulte;
   }
 }
-
+//another solotion
+// bfs()
+// {
+//     let results=[];
+//     let queue=[];
+//     if(!this.root)
+//     {
+// return "tree is empty";
+//     }
+//     queue.push(this.root);
+//     while(queue.length)
+//     {
+//         let current=queue.shift();
+//         results.push(current.value);
+//         if(current.left)
+//         {
+//             queue.push(current.left);
+//         }
+//         if(current.right)
+//         {
+//         queue.push(current.right);
+//         }
+//     }
+//     return results;
+// }
+}
 let tree2 = new BinaryTree();
   let tree1 = new BinaryTree();
   tree1.add(2);
