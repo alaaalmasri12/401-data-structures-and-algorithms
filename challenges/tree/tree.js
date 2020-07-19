@@ -109,28 +109,56 @@ class BinaryTree {
 
             return false;
 
-
         }
+    }
+    fizzbuzz(tree) {
+        let curent = tree.root;
+        let _walk = (curent) => {
+            if (curent.value % 3 === 0 && curent.value % 5 === 0) {
+                curent.value = 'FizzBuzz';
+            }
+            else if (curent.value % 3 === 0) {
+                curent.value = 'fizz';
+            }
+            else if (curent.value % 5 === 0) {
+                curent.value = 'buzz';
+            }
+            else if(curent.value % 3 !== 0 && curent.value % 5 !== 0)
+            {
+                curent.value=`${curent.value}`;
+            }
+            if (curent.left) {
+                _walk(curent.left);
+            }
+            if (curent.right) {
+                _walk(curent.right);
+            }
+        }
+        _walk(tree.root);
+        return curent;
+
     }
 }
 
 let tree = new BinaryTree();
+let newtree=new BinaryTree();
+
 tree.add(5);
 tree.add(3);
-tree.add(2);
-tree.add(8);
-tree.add(10);
-tree.add(11);
+tree.add(15);
+tree.add(30);
+tree.add(6);
+tree.add(45);
+console.log(newtree.fizzbuzz(tree));
+// console.log(tree.contain(5));
+// console.log(tree.contain(3));
+// console.log(tree.contain(8));
+// console.log(tree.contain(10));
+// console.log(tree.contain(32));
+// console.log(tree.contain(15));
+// console.log(tree.contain(12));
 
-console.log(tree.contain(5));
-console.log(tree.contain(3));
-console.log(tree.contain(8));
-console.log(tree.contain(10));
-console.log(tree.contain(32));
-console.log(tree.contain(15));
-console.log(tree.contain(12));
 
 
-
-console.log(tree);
+// console.log(tree);
 module.exports = BinaryTree;
